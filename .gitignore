@@ -1,0 +1,66 @@
+# Operating system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.Spotlight-V100/
+.Trashes/
+
+# Editor and IDE settings
+.idea/
+.vscode/
+.vs/
+*.iml
+*.swp
+*.swo
+*~
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+*.local
+
+# Logs and runtime files
+*.log
+logs/
+*.pid
+*.pid.lock
+
+# Temporary files and caches
+.cache/
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Dependencies and virtual environments
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Build and test output
+build/
+dist/
+out/
+target/
+coverage/
+.coverage
+htmlcov/
+
+# Language and tooling caches
+.gradle/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.tox/
+.next/
+.nuxt/
+.parcel-cache/
+.turbo/
